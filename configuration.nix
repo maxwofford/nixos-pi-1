@@ -14,15 +14,6 @@ in
 
   sdImage.compressImage = true;
 
-  boot = {
-    loader = {
-      grub.enable = false;
-      generic-extlinux-compatible.enable = true;
-    };
-    kernelPackages = pkgs.linuxPackages_5_4;
-    kernelParams = [ "cma=256M" ];
-  };
-
   environment.systemPackages = with pkgs; [
     bat
     bind
