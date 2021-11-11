@@ -6,7 +6,7 @@ in
 {
 
   imports = [
-    <nixpkgs/nixos/modules/installer/sd-card/sd-image-armv7l-multiplatform-installer.nix.nix>
+    <nixpkgs/nixos/modules/installer/sd-card/sd-image-armv7l-multiplatform-installer.nix>
 
     # For nixpkgs cache
     <nixpkgs/nixos/modules/installer/cd-dvd/channel.nix>
